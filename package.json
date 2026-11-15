@@ -1,0 +1,26 @@
+{
+  "name": "employee-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise Employee Attendance Management System with React, Node.js, Express, MySQL & Excel/PDF exports",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "node backend/tests/verify-all.js",
+    "db:init": "cd backend && npm run db:init",
+    "db:seed": "cd backend && npm run db:seed"
+  },
+  "keywords": [
+    "employee-attendance",
+    "react",
+    "nodejs",
+    "express",
+    "mysql",
+    "exceljs",
+    "pdfkit",
+    "erp"
+  ],
+  "author": "Antigravity Senior Full-Stack Engineer",
+  "license": "ISC"
+}
